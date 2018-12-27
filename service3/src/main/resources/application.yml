@@ -1,0 +1,13 @@
+server:
+  port: 8766
+spring:
+  application:
+    name: service
+  cloud:
+    zookeeper:
+      connect-string: 10.2.201.237:2181
+      discovery:
+#        instance-host: localhost
+#        instance-port: ${server.port}
+        root: cloud-zk
+#        enabled: true
