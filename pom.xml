@@ -22,6 +22,7 @@
         <module>client2</module>
         <module>service3</module>
         <module>client3</module>
+        <module>design</module>
     </modules>
     <packaging>pom</packaging>
 
